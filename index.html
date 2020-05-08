@@ -7,5 +7,48 @@
             <li>Baby Registry</li>
         </ul>
     </nav>
-    <h1>Hello World!</h1>
+    <header>
+        <h1>Welcome Nicholas Austin Nelson!</h1>
+    </header>
+    <body>
+        <p>Welcome to Melanie and Todd's virtual baby shower! Feel free to fill out the form below to enter a guessing game!</p>
+        <form
+  action="https://formspree.io/mknqnldn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+            <label for="first-name">First Name:</label>
+            <input id="first-name" name="first-name" type="text" required>
+            <br>
+            <label for="last-name">Last Name:</label>
+            <input id="last-name" name="last-name" type="text" required>
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="text" required>
+            <br>
+            <label for="baby-length">Baby Length (in)</label>
+            <input id="baby-length" name="baby-length" type="number" required>
+            <br>
+            <label for="baby-weight">Baby Weight (oz)</label>
+            <input id="baby-weight" name="baby-weight" type="number" required>
+            <br>
+            <span>Baby Arrival:</span>
+            <input id="early" name="answer" type="radio">
+            <label for="early">Early</label>
+            <input id="on-time" name="answer" type="radio">
+            <label for="on-time">On Time</label>
+            <input id="late" name="answer" type="radio">
+            <label for="late">Late</label>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+        </form>
+    </body>
 </html>
