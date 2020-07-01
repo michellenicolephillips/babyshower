@@ -1,6 +1,6 @@
 body{
   background-color: #add8e6;
-  font-family: 'raleway', sans-serif;
+  font-family: Helvetica, sans-serif;
   text-align: centered;
   overflow: scroll;
 }
@@ -30,11 +30,11 @@ body{
   margin: auto;
   width: 400px; 
   padding: 20px;
-  border: 3px dashed white;
+  border: 3px dashed #00ffff;
   text-align: center;
   color:	#00ffff;
 }
-.introduction{
+.text{
   text-align: center;
   margin: auto;
   width: 50%;
