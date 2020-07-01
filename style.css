@@ -6,7 +6,8 @@ body{
   background-position: bottom right;
   background-size: 20%;
   font-family: Helvetica, sans-serif;
-  text-align: centered;
+  display: flex;
+  flex-direction: column;
 }
 .navigation ul {
   margin: 0;
@@ -28,18 +29,22 @@ body{
   background-position: bottom center;
   height: 350px;
   width: 50%;
+  display: flex;
+  align-items: flex-end;
 }
-#banner .content h1{
-  position: relative;
-  top: 250px;
-  margin: auto;
-  width: 400px; 
-  padding: 20px;
+.center{
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+}
+#welcome{
+  margin: auto; 
+  padding: 10%;
   border: 3px solid hsl(170, 48%, 61%);
   text-align: center;
   color:	hsl(170, 48%, 61%);
 }
-.intro{
+.text{
   text-align: center;
   margin: auto;
   width: 50%;
@@ -52,9 +57,6 @@ body{
    color: #20b2aa;
    border: 3px solid hsl(170, 48%, 61%);
  }
-#text {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  color: hsl(170, 48%, 61%);
+.baby-games{
+
 }
