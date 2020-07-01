@@ -7,18 +7,17 @@ body{
   background-size: 20%;
   font-family: Helvetica, sans-serif;
   text-align: centered;
-  float: right;
 }
 .navigation ul {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   text-align: center;
   list-style: none;
 }
 .nagivation li {
   font-weight: 100;
   letter-spacing: 2px;
-  padding: 20px;
+  padding: 10px;
   color: hsl(170, 48%, 61%);
 }
 #banner {
@@ -48,14 +47,14 @@ body{
 }
  .form{
    text-align: center;
-   margin: 30px auto;
+   margin: auto;
    width: 50%;
    color: #20b2aa;
    border: 3px solid hsl(170, 48%, 61%);
  }
- .page-title{
-   color: hsl(170, 48%, 61%);
-   text-align: center;
-   margin: auto;
-   width: 50%;
- }
+#text {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: hsl(170, 48%, 61%);
+}
