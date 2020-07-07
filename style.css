@@ -34,11 +34,10 @@ body{
 }
 #welcome{
   margin: auto; 
-  padding: 10%;
-  border: 3px solid hsl(170, 48%, 61%);
+  border: 3px solid #20b2aa;
   text-align: center;
-  color:	hsl(170, 48%, 61%);
-}
+  color:	#20b2aa;
+} 
 .text{
   text-align: center;
   font-family: Helvetica, sans-serif;
