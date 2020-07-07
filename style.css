@@ -68,21 +68,18 @@ h2{
 }
 img {
   float: left;
-  /*width:  225px;
-  height: 225px;
-  */
-  width: 17vw;
-  height: 34vh;
+  width: 15vw;
+  height: 30vh;
   object-fit: cover;
   padding: 5px;
 }
 .gallery {
   display: flexbox;
-  /*grid-template-columns: 235px 235px 235px 235px 235px;
-  */
-  grid-template-columns: 20vw 20vw 20vw 20vw
+  grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
   padding: 5vw;
 }
 .stories{
   list-style: none;
+  font-family: Helvetica, sans-serif;
+  color: hsl(170, 48%, 61%);
 }
