@@ -32,11 +32,6 @@ body{
   display: flex;
   align-items: flex-end;
 }
-.center{
-  display: flex;
-  align-items: center;
-  min-width: 100%;
-}
 #welcome{
   margin: auto; 
   padding: 10%;
@@ -67,6 +62,11 @@ h1{
   margin: auto;
   width: 50%;
 }
+h2{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #20b2aa;
+}
 img {
   float: left;
   width:  225px;
@@ -78,4 +78,7 @@ img {
   display: grid;
   grid-template-columns: 235px 235px 235px 235px 235px;
   padding: 10px;
+}
+.stories{
+  list-style: none;
 }
