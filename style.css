@@ -83,3 +83,9 @@ img {
   font-family: Helvetica, sans-serif;
   color: hsl(170, 48%, 61%);
 }
+img .animal{
+  width: 30ßvw;
+  height: 30vh;
+  object-fit: cover;
+
+}
