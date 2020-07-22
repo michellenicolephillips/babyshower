@@ -67,7 +67,7 @@ h2{
   color: #20b2aa;
 }
 img {
-  float: left;
+  float: center;
   width: 15vw;
   height: 30vh;
   object-fit: cover;
@@ -83,11 +83,13 @@ img {
   font-family: Helvetica, sans-serif;
   color: hsl(170, 48%, 61%);
 }
-.animal img{
-  text-align: center;
-  width: 39%;
+.animal{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.animal img {
+  width: 40%;
   height: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right; auto;
 }
