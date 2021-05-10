@@ -1,107 +1,114 @@
 body{
-  background-color: hsl(200, 34%, 29%);
-  background-image: url(world.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 20%;
-  font-family: Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
+     background-color: hsl(200, 34%, 29%);
+     background-image: url(/images/world.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: 20%;
+     font-family: Helvetica, sans-serif;
+     display: flex;
+     flex-direction: column;
 }
 .navigation ul {
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-  list-style: none;
+     margin: 0;
+     padding: 20px;
+     text-align: center;
+     list-style: none;
 }
 .nagivation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 10px;
-  color: hsl(170, 48%, 61%);
+     font-weight: 100;
+     letter-spacing: 2px;
+     padding: 10px;
+     color: hsl(170, 48%, 61%);
 }
 #banner {
-  margin: auto;
-  background-image: url(babyannouncement.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-  width: 50%;
-  display: flex;
-  align-items: flex-end;
+     margin: auto;
+     background-image: url(/images/babyannouncement.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 350px;
+     width: 50%;
+     display: flex;
+     align-items: flex-end;
 }
 #welcome{
-  margin: auto; 
-  border: 3px solid hsl(187, 27%, 79%);
-  text-align: bottom;
-  color:	hsl(187, 27%, 79%)
+     margin: auto; 
+     border: 3px solid hsl(187, 27%, 79%);
+     text-align: bottom;
+     color:	hsl(187, 27%, 79%)
 } 
 .text{
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  margin: auto;
-  width: 50%;
-  color: hsl(170, 48%, 61%);
+     text-align: center;
+     font-family: Helvetica, sans-serif;
+     margin: auto;
+     width: 50%;
+     color: hsl(170, 48%, 61%);
 }
- .form{
-   text-align: center;
-   font-family: Helvetica, sans-serif;
-   margin: auto;
-   width: 50%;
-   color: #20b2aa;
-   border: 3px solid hsl(170, 48%, 61%);
+ table{
+      text-align: center;
+     font-family: Helvetica, sans-serif;
+     margin: auto;
+     width: 50%;
+     color: #20b2aa;
+     border: 3px solid hsl(170, 48%, 61%);
+     line-height: 30px;
+ }
+ .form-center{
+      text-align: center;
+ }
+ input{
+     text-align: right;
  }
 h1{
-  color: hsl(170, 48%, 61%);
-  font-family: cursive;
-  font-weight: bold;
-  text-align: center;
-  margin: auto;
-  width: 50%;
+     color: hsl(170, 48%, 61%);
+     font-family: cursive;
+     font-weight: bold;
+     text-align: center;
+     margin: auto;
+     width: 50%;
 }
 h2{
-  font-family: cursive;
-  font-weight: bold;
-  color: #20b2aa;
+     font-family: cursive;
+     font-weight: bold;
+     color: #20b2aa;
 }
 img {
-  float: center;
-  width: 15vw;
-  height: 30vh;
-  object-fit: cover;
-  padding: 5px;
+     float: center;
+     width: 15vw;
+     height: 30vh;
+     object-fit: cover;
+     padding: 5px;
 }
 .gallery {
-  display: flexbox;
-  grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-  padding: 5vw;
+     display: flexbox;
+     grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+     padding: 5vw;
 }
 .stories{
-  list-style: none;
-  font-family: Helvetica, sans-serif;
-  color: hsl(170, 48%, 61%);
+     list-style: none;
+     font-family: Helvetica, sans-serif;
+     color: hsl(170, 48%, 61%);
 }
 .animal{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+     display: flex;
+     justify-content: center;
+     width: 100%;
 }
 
 .animal img {
-  width: 40%;
-  height: 50%;
+     width: 40%;
+     height: 50%;
 }
 #car{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 100%;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     width: 100%;
 }
 #car img{
-  width: 32%;
-  height: 20%;
-  justify-content: center;
-  align-content: center;
+     width: 32%;
+     height: 20%;
+     justify-content: center;
+     align-content: center;
 }

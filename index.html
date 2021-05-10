@@ -1,68 +1,120 @@
 <!DOCTYPE html>
-<html>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <body>
-    <nav class="navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="babygames.html">Baby Games</a></li>
-            <li><a href="advice.html">Advice</a></li>
-            <li><a href="https://www.babylist.com/baby-reg-melanie-nelson" target="_blank">Baby Registry</a></li>
-        </ul>
-    </nav>
-    <div id="banner">
-            <h1 id="welcome">Welcome Baby Nelson!</h1>
-    </div>
-    <p class="text">
-        <br>
-        Welcome to Melanie and Todd's virtual baby shower! Thank you for joining them as they embark on their greatest adventure yet!
-        Please fill out the form below to let us know what you think they're in for.
-        Feel free to explore the other links above. Check out below to see how the first half of their baby shower went!
-        <br> 
-        <div id="car">
-        <img src="/images/carparade.JPG">
-        <br>
-        <img src="/images/carparde2.JPG">
-        <br> 
-        <img src="/images/carparade3.jpeg">
-        </div>
-        <br>
-        <br>
+     <html>
+          <link href="style.css" type="text/css" rel="stylesheet">
+          <body>
+               <nav class="navigation">
+                    <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="babygames.html">Baby Games</a></li>
+                         <li><a href="advice.html">Advice</a></li>
+                         <li><a href="https://www.babylist.com/baby-reg-melanie-nelson" target="_blank">Baby Registry</a></li>
+                    </ul>
+               </nav>
+               <div id="banner">
+                    <h1 id="welcome">Welcome Baby Nelson!</h1>
+               </div>
+               <p class="text">
+                    <br>
+                    Welcome to Melanie and Todd's virtual baby shower! Thank you for joining them as they embark on their greatest adventure yet!
+                    Please fill out the form below to let us know what you think they're in for.
+                    Feel free to explore the other links above. Check out below to see how the first half of their baby shower went!
+                    <br> 
+                    <div id="car">
+                    <img src="/images/carparade.JPG">
+                    <br>
+                    <img src="/images/carparde2.JPG">
+                    <br> 
+                    <img src="/images/carparade3.jpeg">
+                    </div>
+                    <br>
+                    <br>
 
-    </p>
-            
-                <form class="form"
-  action="https://formspree.io/mknqnldn"
-  method="POST">
-            <p>Guess what size the baby be & when he will arrive<br> Closest guess will win a prize!</p>
-            <label for="first-name">First Name:</label>
-            <input id="first-name" name="first-name" type="text" required>
-            <br>
-            <label for="last-name">Last Name:</label>
-            <input id="last-name" name="last-name" type="text" required>
-            <br>
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="text" required>
-            <br>
-            <label for="baby-length">Baby Length (in)</label>
-            <input id="baby-length" name="baby-length" type="number">
-            <br>
-            <label for="baby-lbs"></label>Baby Weight (lbs)</label>
-            <input id="baby-lbs" name="baby-lbs" type="number">
-            <label for="baby-oz">(oz)</label>
-            <input id="baby-oz" name="baby-oz" type="number">
-            <br>
-            <span>Baby Arrival:</span>
-            <input id="early" name="answer" type="radio" value="early">
-            <label for="early">Early</label>
-            <input id="on-time" name="answer" type="radio" value="on-time">
-            <label for="on-time">On Time</label>
-            <input id="late" name="answer" type="radio" value="late">
-            <label for="late">Late</label>
-            <br>
-            <button type="submit">Send</button>
-            <br>
-            <br>
-        </form>
-    </body>
-</html>
+               </p>
+          
+               <table>
+                    <form
+                    action="https://formspree.io/mknqnldn"
+                    method="POST">
+                         <p class= "text">Guess what size the baby be & when he will arrive<br> Closest guess will win a prize!</p>
+                         <tr>
+                              <th>
+                                   <label class = "label" for="first-name">First Name:</label
+                              ></th>
+                              <th>
+                                   <input id="first-name" name="first-name" type="text" required>
+                              </th>   
+                         </tr>
+                         <tr>
+                              <th>
+                                   <label for="last-name">Last Name:</label>
+                              </th>
+                              <th>
+                                   <input id="last-name" name="last-name" type="text" required>
+                              </th>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <label for="email">Email:</label>
+                              </th>
+                              <th>
+                                   <input id="email" name="email" type="text" required>
+                              </th>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <label for="baby-length">Baby Length (in)</label>
+                              </th>
+                              <th>
+                                   <input id="baby-length" name="baby-length" type="number">
+                              </th>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <label for="baby-lbs"></label>Baby Weight (lbs)</label>
+                              </th>
+                              <th>
+                                   <input id="baby-lbs" name="baby-lbs" type="number">
+                              </th>
+                              <th>
+                                   <label for="baby-oz">(oz)</label>
+                              </th>
+                              <th>
+                                   <input id="baby-oz" name="baby-oz" type="number">
+                              </th>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class= "form-center">Baby Arrival:</span>
+                              </th>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <label for="early">Early</label>
+                              </th>
+                              <th>
+                                   <label for="on-time">On Time</label>
+                              </th>
+                              <th>
+                                   <label for="late">Late</label>
+                              </th>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <input id="early" name="answer" type="radio" value="early">
+                              </th>
+                              <th>
+                                   <input id="on-time" name="answer" type="radio" value="on-time">
+                              </th>
+                              <th>
+                                   <input id="late" name="answer" type="radio" value="late">
+                              </th>
+                         </tr>
+                         <tr>
+                         <th><button class="form-center" type="submit">Send</button></th>
+                         </tr>
+                         <br>
+                         <br>
+                    </form>
+               </table>
+          </body>
+     </html>
