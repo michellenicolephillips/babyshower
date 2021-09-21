@@ -23,7 +23,7 @@ body{
 }
 #banner {
      margin: auto;
-     background-image: url(/images/babyannouncement.jpg);
+     background-image: url(images/babyannouncement.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
